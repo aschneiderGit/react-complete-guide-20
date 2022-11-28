@@ -1,6 +1,6 @@
 import {Route} from 'react-router-dom';
-import Products from './components/Product';
-import Welcome from './components/Welcome';
+import Products from './pages/Product';
+import Welcome from './pages/Welcome';
 
 function App() {
 	return (
