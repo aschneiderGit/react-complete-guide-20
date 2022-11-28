@@ -1,9 +1,18 @@
+import {Route} from 'react-router-dom';
+import Products from './components/Product';
+import Welcome from './components/Welcome';
+
 function App() {
-  return (
-    <div>
-      <h2>Let's get started!</h2>
-    </div>
-  );
+	return (
+		<div>
+			<Route path="/welcome">
+				<Welcome />
+			</Route>
+			<Route path="/products">
+				<Products />
+			</Route>
+		</div>
+	);
 }
 
 export default App;
